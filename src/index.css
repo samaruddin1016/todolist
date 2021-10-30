@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:lightseagreen;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.mod{
+  margin-left: 2rem ;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    border: darkblue;
+    border-radius: 10px;
+    background: rgb(208, 240, 240);
+    border-radius:'2rem';
+    border-color: chartreuse;
+  width: 100%;
+    
+    transition: all 0.2s linear ;
+  }
+  .mod:hover{
+    background:aquamarine;
+  }
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-bottom: 2rem;
+ 
+}
+.design{
+  font-size: 2rem;
+  
+}
+.btn1{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 0.7rem;
+  width: 6rem;
+  color: white;
+  background-color:blue;
+  cursor: pointer;
+}
+.design_item{
+  margin-bottom: 2rem;
+  font-size:3rem;
+  margin-bottom: 2rem;
+}
+.int{
+   width: 50%;
+   tab-size: 4rem;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  width:40vw;
+  padding:0.6rem;
+  background-color: #222;
+  border-radius: 0.3rem;
+  color:white;
+}
+::placeholder{
+  color:white
+}
+.btn2{
+  float: right;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  background: transparent;
+  cursor: pointer;
+  color: red;
+
+}
+.section{
+  width:90vw;
+  max-width:90vw;
+  margin: 0 auto;
+  margin-top:4rem;
+  margin-bottom: 4rem;
+
+}
+.section{
+  background-color: white;
+  border-radius:0.4rem;
+  border-color: lightpink;
+
+}
+.clear-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+
+  padding:0.7rem;
+  width: 10rem;
+  background:rgb(54, 233, 54);
+  border-radius: 0.6rem;
+  cursor:pointer;
+  transition: all 0.3s linear;
+
+
+}
+.clear-btn:hover{
+ 
+  background:red;
+  color: blue;
+  
+}
+.item{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.list_items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-direction: column;
+
+}
+.single_list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+
+ 
+}
+.btn3{
+  padding: 0.7rem;
+  background: transparent;
+  border-color: transparent;
+  color: red;
+  cursor: pointer;
+  font-size: 30px;
+}
+.particles{
+  z-index:-1;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  position:fixed;
+}
+@media screen and (min-width:900px){
+  .mod{
+    padding:3rem;
+    height: 30px;
+  
+  }
+  .section{
+    width:50vw;
+    max-width: 95vw;
+  }
+
+}
+  
